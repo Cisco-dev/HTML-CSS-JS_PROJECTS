@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../img/photo-1499002238440-d264edd596ec.avif)  no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+#dg-clock{
+    position:relative;
+    bottom: 100px;
+}
+.title{
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+span{
+    text-transform: uppercase;
+    font-size:1em;
+    color: aliceblue;
+    letter-spacing: 7px;
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 800;
+}
+.clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: -270px;
+}
+.clock *{
+    padding: 25px 30px;
+    background-color: blueviolet;
+    opacity: .6;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px 5px 0 0;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.text *{
+    font-family: 'Courier New', Courier, monospace;
+    color: antiquewhite;
+    text-transform: capitalize;
+    font-size: 1em;
+    background-color: #002080;
+    opacity: .77;
+}
+.text-clock:nth-child(1){
+    padding: 5px 30px 5px 31px;
+    position: relative;
+    left: 1.3px;
+}
+.text-clock:nth-child(2){
+    padding: 5px 22px 5px 21px;
+}.text-clock:nth-child(3){
+    padding: 5px 17.3px 5px 15px;
+    position: relative;
+    right: 1.4px;
+}
